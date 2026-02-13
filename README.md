@@ -1,4 +1,4 @@
-# sqlalchimy_projetoInstituicaoFinanceira
+# projetoInstituicaoFinanceira
 
 ## Projeto: Banco de Dados de Instituição Financeira com SQLAlchemy
 
