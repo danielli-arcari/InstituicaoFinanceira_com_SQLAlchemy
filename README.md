@@ -1,5 +1,3 @@
-# projetoInstituicaoFinanceira
-
 ## Projeto: Banco de Dados de Instituição Financeira com SQLAlchemy
 
 ## Objetivo
