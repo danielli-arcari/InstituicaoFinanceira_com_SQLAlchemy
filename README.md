@@ -1,81 +1,60 @@
 # sqlalchimy_projetoInstituicaoFinanceira
-Projeto: Banco de Dados de Instituição Financeira com SQLAlchemy
 
-#📌 Objetivo
+## Projeto: Banco de Dados de Instituição Financeira com SQLAlchemy
+
+## Objetivo
 
 Este projeto foi desenvolvido como parte dos meus estudos em banco de dados utilizando Python e SQLAlchemy no Google Colab.
 
-O objetivo foi compreender, na prática, como funciona a criação e manipulação de um banco de dados relacional utilizando ORM (Object-Relational Mapping), conectando conceitos de modelagem com execução de código.
+A proposta foi compreender, na prática, como criar e manipular um banco de dados relacional utilizando ORM (Mapeamento Objeto-Relacional), conectando conceitos de modelagem com execução de código.
 
-#🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 Python 3
-
-SQLite (banco de dados leve e embarcado)
-
+SQLite
 SQLAlchemy
-
 Google Colab
 
-#📚 Conceitos Trabalhados
+## Conceitos Trabalhados
 
-Criação de engine de conexão
-
-Definição de modelos (mapeamento objeto-relacional)
-
-Criação de tabelas com Base.metadata.create_all()
-
-Uso de sessões (session)
-
+Criação da engine de conexão
+Definição de modelos representando tabelas
+Criação de tabelas com `Base.metadata.create_all()`
+Uso de session para controle de transações
 Inserção de dados
-
-Commit de transações
-
+Commit das alterações
 Consultas ao banco de dados
 
-#🗂 Estrutura do Projeto
+## Estrutura do Projeto
 
-O projeto simula um pequeno sistema de instituição financeira, com estrutura de dados organizada em tabelas relacionadas.
+O projeto simula um pequeno sistema de instituição financeira, com dados organizados em tabelas relacionadas.
 
-As etapas principais foram:
+Etapas principais:
 
 Importação da biblioteca SQLAlchemy
-
 Criação da engine de conexão com SQLite
-
 Definição das classes que representam as tabelas
-
 Criação das tabelas no banco
-
 Inserção de registros
+Consultas para recuperação de dados
 
-Realização de consultas para recuperação de dados
+## Aprendizados
 
-#🎯 Aprendizados
+Durante o desenvolvimento, consolidei o entendimento do fluxo básico de trabalho com dados estruturados: conexão, modelagem, persistência e consulta.
 
-Durante o desenvolvimento, foi possível compreender melhor:
+Também ficou mais claro como o SQLAlchemy abstrai comandos SQL por meio de objetos Python, mantendo a organização e a legibilidade do código.
 
-Como o SQLAlchemy abstrai comandos SQL através de objetos Python
+Este projeto representa um passo na construção da minha base em engenharia e análise de dados com Python.
 
-A importância da sessão para controle de transações
-
-Como funciona o fluxo: conexão → modelagem → persistência → consulta
-
-Diferença entre trabalhar diretamente com SQL e utilizar ORM
-
-Esse projeto representa um passo importante na consolidação dos fundamentos de banco de dados relacionais aplicados com Python.
-
-#🚀 Próximos Passos
+## Próximos Passos
 
 Implementar consultas mais complexas
+Explorar relacionamentos entre tabelas
+Refatorar o código em uma estrutura mais modular
+Evoluir o projeto com novos cenários de dados
 
-Explorar relacionamentos entre tabelas (One-to-Many)
-
-Refatorar o projeto estruturando em arquivos separados
-
-Versionar evoluções futuras
-
-#👩‍💻 Autora
+## Autora
 
 Danielli M. Coutinho Arçari
-Estudante de Ciência da Computação em transição de carreira para a área de Dados.
+Estudante de Ciência da Computação em transição para a área de Dados.
+
